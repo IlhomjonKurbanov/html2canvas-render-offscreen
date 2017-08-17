@@ -1,23 +1,22 @@
 {
-  "title": "html2canvas",
-  "name": "html2canvas",
-  "description": "Screenshots with JavaScript",
+  "title": "html2canvas-render-offscreen",
+  "name": "html2canvas-render-offscreen",
+  "description": "Screenshots with JavaScript - Port version for Rendering off-screen",
   "main": "dist/html2canvas.js",
-  "version": "0.5.0-beta4",
+  "version": "0.0.2",
   "author": {
-    "name": "Niklas von Hertzen",
-    "email": "niklasvh@gmail.com",
-    "url": "http://hertzen.com"
+    "name": "Kim Jihyok",
+    "email": "jkimab@connect.ust.hk"
   },
   "engines": {
     "node": ">=4.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:niklasvh/html2canvas.git"
+    "url": "https://github.com/wotomas/html2canvas-render-offscreen.git"
   },
   "bugs": {
-    "url": "https://github.com/niklasvh/html2canvas/issues"
+    "url": "https://github.com/wotomas/html2canvas-render-offscreen/issues"
   },
   "devDependencies": {
     "base64-arraybuffer": "^0.1.5",
@@ -46,6 +45,5 @@
     "start": "grunt server",
     "sauceconnect": "tests/sauceconnect.js"
   },
-  "homepage": "http://html2canvas.hertzen.com",
   "license": "MIT"
 }
